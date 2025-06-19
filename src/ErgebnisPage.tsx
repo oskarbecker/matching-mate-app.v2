@@ -66,7 +66,7 @@ const ErgebnisPage: React.FC<Props> = ({
   const getEmotion = () => {
     if (matchPercent >= 80) return { emoji: '💕', message: 'Ihr passt perfekt zusammen!', color: '#ffb6c1' };
     if (matchPercent >= 50) return { emoji: '😐', message: 'Es gibt Potenzial mit etwas Feinschliff.', color: '#ffe680' };
-    return { emoji: '💔', message: 'Ihr seid leider kein Match!.', color: '#ffd6d6' };
+    return { emoji: '💔', message: 'Ihr seid leider kein Match!', color: '#ffd6d6' };
   };
 
   const { emoji, message, color } = getEmotion();
