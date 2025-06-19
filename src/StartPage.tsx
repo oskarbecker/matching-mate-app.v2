@@ -40,7 +40,7 @@ export default function StartPage() {
           Seid ihr ein Match?
         </h2>
         <p style={{ fontSize: '1.1rem', color: '#555', lineHeight: '1.6' }}>
-          Finde heraus, wie gut ihr zusammenpasst! Bewertet euch gegenseitig und erhaltet euer persönliches Matching-Ergebnis.
+          Findet heraus, wie gut ihr zusammenpasst! Bewertet euch gegenseitig und erhaltet euer persönliches Matching-Ergebnis.
         </p>
       </div>
 
